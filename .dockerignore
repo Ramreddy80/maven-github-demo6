@@ -1,0 +1,28 @@
+# Git files
+.git
+.gitignore
+
+# CI/CD and configuration
+.github
+.dockerignore
+README.md
+
+# IDE and Editor files
+.idea
+.vscode
+*.iml
+*.ipr
+*.iws
+
+# Build files (keep only the executable jar if copying target)
+target/classes
+target/test-classes
+target/generated-sources
+target/generated-test-sources
+target/maven-status
+target/maven-archiver
+target/surefire-reports
+
+# Temporary files
+*.tmp
+*.log
